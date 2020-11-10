@@ -719,7 +719,7 @@ void wdfRootNode::setPortResistance( double Rp ) {
 }
 
 int wdfRootNode::getNumPorts( ){
-    return numPorts;
+    return (int)numPorts;
 }
 
 #pragma mark Unterminated Switch
