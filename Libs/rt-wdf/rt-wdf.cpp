@@ -30,6 +30,11 @@
 #include "rt-wdf.h"
 #include <assert.h>
 
+#ifdef COMPILER_MSVC
+#pragma warning( disable : 4244 4305 4204 4456 4068 )
+#endif
+
+
 #pragma mark - Tree
 //==============================================================================
 //                                  T R E E
